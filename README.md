@@ -4,7 +4,7 @@
 >
 > https://nolboo.kim/blog/2015/08/21/oh-my-zsh/ 
 >
-> http://thdev.tech/mac/2016/05/01/Mac-ZSH-Install.html를 참고하였습니다.
+> http://thdev.tech/mac/2016/05/01/Mac-ZSH-Install.html 를 참고하였습니다.
 >
 > mac os, iTerm2 기준으로 작성하였습니다.
 >
