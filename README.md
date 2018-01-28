@@ -103,3 +103,21 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
 마찬가지로 `.zshrc`에 plugin에 `zsh-syntax-highlighting` 추가
+
+
+
+---
+
+> updated 2018.01.28
+
+### python virtualenv 관련 세팅
+
+현재 virtualenv를 activate하면 display가 되지 않음. 따라서 그걸 display 하려면 현재 `.zshrc`에 다음과 같이 코드를 추가하면 됨.
+
+```bash
+POWERLEVEL9K_MODE="awesome-patched"
+POWERLEVEL9K_DIR_FOREGROUND="white"
+POWERLEVEL9K_RBENV_FOREGROUND="white"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv context dir rbenv vcs)
+```
+
